@@ -1,0 +1,46 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    /* display: flex; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-brand{
+    font-size: 2.5rem;
+    height: auto;
+    border-radius: 1rem;
+    border-bottom: 5px solid black;
+}
+
+.nav-heading{
+    margin: 0%;
+}
+
+.div1{
+    padding-bottom: 3rem;
+}
+
+.img{
+   
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 5vh;
+}
+
+.img2{
+   
+    height: 50vh;
+}
+
+.q1{
+    font-size: 40px;
+}
+
+hr{
+    color: black;
+}
+
+.list{
+    align-items: left;
+}
