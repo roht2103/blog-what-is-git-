@@ -26,162 +26,205 @@
       </header>
     </div>
 
-    <div>
-      <h1 class="q1">What is Git ?</h1>
-      <p style="font-weight: bold">
-        &nbsp;&nbsp;&nbsp;&nbsp; Git is a version control system used for
-        tracking changes in computer files. It is generally used for source code
-        management in software development.
-      </p>
-      <ul>
-        <li>Git is used to tracking changes in the source code</li>
-        <br />
-        <li>
-          The distributed version control tool is used for source code
-          management
-        </li>
-        <br />
-        <li>It allows multiple developers to work together</li>
-        <br />
-        <li>
-          It supports non-linear development through its thousands of parallel
-          branches
-        </li>
-      </ul>
-      <br />
-      <br />
-
-      <hr />
-
-      <h1>Features of Git</h1>
-      <ul>
-        <li>
-          Track hisory
+    <div style="padding: 2rem">
+      <div
+        style="
+          border: 4px solid black;
+          border-radius: 4rem;
+          border-bottom: 25px solid black;
+          border-left: 25px solid black;
+          border-right: 10px solid black;
+          background-color: rgb(172, 124, 160);
+        "
+      >
+        <span style="padding: 0rem 4rem">
+          <h1 class="q1">What is Git ?</h1>
+        </span>
+        <p style="font-weight: bold">
+          &nbsp;&nbsp;&nbsp;&nbsp; Git is a version control system used for
+          tracking changes in computer files. It is generally used for source
+          code management in software development.
+        </p>
+        <ul>
+          <li>Git is used to tracking changes in the source code</li>
           <br />
-        </li>
-        <br />
-        <li>
-          Free and open source
+          <li>
+            The distributed version control tool is used for source code
+            management
+          </li>
           <br />
-        </li>
-        <br />
-        <li>
-          support non-linear development
+          <li>It allows multiple developers to work together</li>
           <br />
-        </li>
-        <br />
-        <li>
-          Creates backups
+          <li>
+            It supports non-linear development through its thousands of parallel
+            branches
+          </li>
+        </ul>
+      </div>
+
+      <br />
+      <br />
+      <div
+        style="
+          border: 4px solid rgb(94, 3, 94);
+          border-radius: 4rem;
+          border-bottom: 25px solid rgb(94, 3, 94);
+          border-left: 25px solid rgb(94, 3, 94);
+          border-right: 10px solid rgb(94, 3, 94);
+        "
+      >
+        <h1>Features of Git</h1>
+        <ul>
+          <li>
+            Track hisory
+            <br />
+          </li>
           <br />
-        </li>
-        <br />
-        <li>
-          Scalable
+          <li>
+            Free and open source
+            <br />
+          </li>
           <br />
-        </li>
-        <br />
-        <li>
-          Support collaboration
+          <li>
+            support non-linear development
+            <br />
+          </li>
           <br />
-        </li>
-        <br />
-        <li>
-          Branching is easier
+          <li>
+            Creates backups
+            <br />
+          </li>
           <br />
-        </li>
-        <br />
-        <li>Distribution development</li>
-      </ul>
-
-      <br />
-      <br />
-      <br />
-      <center>
-        <img height="260vh" src="git-workflow.png" />
-      </center>
-      <br />
-      <br />
-
-      <hr />
-
-      <h1>Git Workflow</h1>
-      <p>The Git workflow is divided into three parts :</p>
-      <ul>
-        <li>Working directry-Modify flies in your working directry</li>
-        <br />
-
-        <li>
-          Staging area(Index)-Stage the files and add snapshots of them to your
-          staging area
-        </li>
-        <br />
-
-        <li>
-          Git directry(Repository)-Perform a commit that stores the snapshots
-          permanantly to your Git directry.
-        </li>
-      </ul>
-      <br />
-      <br />
-
-      <p>
-        Branch in Git is used to keep your changes until they are ready. You can
-        do your work on a branch while the main
-        <br />
-        branch remains stable. After you are done with you work, you can merge
-        it with th main office.
-        <br />
-        <br />
-        <img width="600rem" src="branch in git.png" />
-        <br />
-        <br />
-        The above diagram shows there is a master branch. There are two seperate
-        branches called
-        <br />
-        "small feature" and "large feature". Once you are finished working with
-        the two seperate branches, you can
-        <br />
-        merge them and create a master branch.
-      </p>
-      <br />
-      <br />
-      <br />
-      <center>
-        <img style="align-items: center" height="400px" src="git command.jpg" />
-      </center>
-
-      <br />
-      <br />
-
-      <hr />
-
-      <h1>Commands in Git</h1>
-
-      <ul>
-        <li>
-          Create repositories
+          <li>
+            Scalable
+            <br />
+          </li>
           <br />
-          git init
-        </li>
-
-        <li>
-          Make changes and commit
+          <li>
+            Support collaboration
+            <br />
+          </li>
           <br />
-          status
-        </li>
-
-        <li>
-          Parallel development branch
+          <li>
+            Branching is easier
+            <br />
+          </li>
           <br />
-          merge rebase
-        </li>
+          <li>Distribution development</li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <center>
+          <img height="260vh" src="git-workflow.png" />
+        </center>
+      </div>
 
-        <li>
-          Sync repositories push pull
+      <br />
+      <br />
+
+      <div
+        style="
+          border: 4px solid black;
+          border-radius: 4rem;
+          border-bottom: 25px solid black;
+          border-left: 25px solid black;
+          border-right: 10px solid black;
+        "
+      >
+        <h1>Git Workflow</h1>
+        <p style="font-weight: bold">
+          The Git workflow is divided into three parts :
+        </p>
+        <ul>
+          <li>Working directry-Modify flies in your working directry</li>
           <br />
-          add origin
-        </li>
-      </ul>
+
+          <li>
+            Staging area(Index)-Stage the files and add snapshots of them to
+            your staging area
+          </li>
+          <br />
+
+          <li>
+            Git directry(Repository)-Perform a commit that stores the snapshots
+            permanantly to your Git directry.
+          </li>
+        </ul>
+        <br />
+        <br />
+
+        <p>
+          Branch in Git is used to keep your changes until they are ready. You
+          can do your work on a branch while the main
+          <br />
+          branch remains stable. After you are done with you work, you can merge
+          it with th main office.
+          <br />
+          <br />
+          <img width="600rem" src="branch in git.png" />
+          <br />
+          <br />
+          The above diagram shows there is a master branch. There are two
+          seperate branches called
+          <br />
+          "small feature" and "large feature". Once you are finished working
+          with the two seperate branches, you can
+          <br />
+          merge them and create a master branch.
+        </p>
+        <br />
+        <br />
+        <br />
+        <center>
+          <img
+            style="align-items: center"
+            height="400px"
+            src="git command.jpg"
+          />
+        </center>
+      </div>
+
+      <br />
+      <br />
+
+      <div
+        style="
+          border: 4px solid rgb(94, 3, 94);
+          border-radius: 4rem;
+          border-bottom: 25px solid rgb(94, 3, 94);
+          border-left: 25px solid rgb(94, 3, 94);
+          border-right: 10px solid rgb(94, 3, 94);
+        "
+      >
+        <h1>Commands in Git</h1>
+
+        <ul>
+          <li>
+            Create repositories
+            <br />
+            git init
+          </li>
+
+          <li>
+            Make changes and commit
+            <br />
+            status
+          </li>
+
+          <li>
+            Parallel development branch
+            <br />
+            merge rebase
+          </li>
+
+          <li>
+            Sync repositories push pull
+            <br />
+            add origin
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
