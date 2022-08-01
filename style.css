@@ -4,9 +4,32 @@ body{
     display: block;
     justify-content: center;
     align-items: center;
+    
+}
+
+ul{
+    padding-left: 15rem;
+}
+
+img{
+    
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+    padding-left: 10rem;
 }
 
 .nav-brand{
+    text-align: center;
     font-size: 2.5rem;
     height: auto;
     border-radius: 1rem;
@@ -15,6 +38,7 @@ body{
 
 .nav-heading{
     margin: 0%;
+    font-size: 40px;
 }
 
 .div1{
@@ -38,7 +62,7 @@ body{
 }
 
 hr{
-    color: black;
+    
 }
 
 .list{
