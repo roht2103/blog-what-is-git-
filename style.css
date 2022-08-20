@@ -17,11 +17,8 @@ img{
 }
 
 h1{
-    text-align: center;
-    padding: 0rem 1rem;
-    border: 2px solid black;
-    background-color: rgb(132, 61, 129);
-    border-radius: 1rem;
+text-align: center;
+background-color: blueviolet;    
 }
 
 li{
